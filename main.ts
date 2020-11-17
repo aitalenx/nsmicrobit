@@ -677,8 +677,8 @@ namespace NSbit_小车类 {
        // setPwm(12, 0, 0);
        // setPwm(13, 0, 0);
 
-        setPwm(15, 0, speed);
-        setPwm(14, 0, 0);
+        setPwm(14, 0, speed);
+        setPwm(15, 0, 0);
     }
      function Right_F_run(speed: number) {
 
@@ -693,8 +693,8 @@ namespace NSbit_小车类 {
        // setPwm(12, 0, 0);
        // setPwm(13, 0, 0);
 
-        setPwm(15, 0, 0);
-        setPwm(14, 0, speed);
+        setPwm(14, 0, 0);
+        setPwm(15, 0, speed);
     }    
     function Car_back(speed: number) {
 
@@ -709,8 +709,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, 0);
         setPwm(13, 0, speed);
 
-        setPwm(15, 0, 0);
-        setPwm(14, 0, speed);
+        setPwm(14, 0, 0);
+        setPwm(15, 0, speed);
 
         //pins.digitalWritePin(DigitalPin.P16, 0);
         //pins.analogWritePin(AnalogPin.P1, speed); //速度控制
@@ -731,8 +731,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, 0);
         setPwm(13, 0, 0);
 
-        setPwm(15, 0, speed);
-        setPwm(14, 0, 0);
+        setPwm(14, 0, speed);
+        setPwm(15, 0, 0);
 
         //pins.analogWritePin(AnalogPin.P0, speed);
         //pins.digitalWritePin(DigitalPin.P8, 0);
@@ -753,8 +753,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, speed);
         setPwm(13, 0, 0);
 
-        setPwm(15, 0, 0);
         setPwm(14, 0, 0);
+        setPwm(15, 0, 0);
         //pins.digitalWritePin(DigitalPin.P0, 0);
         //pins.digitalWritePin(DigitalPin.P8, 0);
 
@@ -767,8 +767,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, 0);
         setPwm(13, 0, 0);
 
-        setPwm(15, 0, 0);
         setPwm(14, 0, 0);
+        setPwm(15, 0, 0);
         //pins.digitalWritePin(DigitalPin.P0, 0);
         //pins.digitalWritePin(DigitalPin.P8, 0);
         //pins.digitalWritePin(DigitalPin.P16, 0);
@@ -787,8 +787,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, 0);
         setPwm(13, 0, speed);
 
-        setPwm(15, 0, speed);
-        setPwm(14, 0, 0);
+        setPwm(14, 0, speed);
+        setPwm(15, 0, 0);
 
         //pins.analogWritePin(AnalogPin.P0, speed);
         //pins.digitalWritePin(DigitalPin.P8, 0);
@@ -809,8 +809,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, speed);
         setPwm(13, 0, 0);
 
-        setPwm(15, 0, 0);
-        setPwm(14, 0, speed);
+        setPwm(14, 0, 0);
+        setPwm(15, 0, speed);
         //pins.analogWritePin(AnalogPin.P0, 1023-speed);
         //pins.digitalWritePin(DigitalPin.P8, 1);
 
