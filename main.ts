@@ -8,7 +8,7 @@ load dependency
 
 
 //% color="#C814B8" weight=25 icon="\uf1d4"
-namespace cbit_显示类 {
+namespace NSbit_显示类 {
     
     export enum enColor {
 
@@ -161,10 +161,10 @@ namespace cbit_显示类 {
  ****************************************************************************************************************************************/
 
 //% color="#C814B8" weight=24 icon="\uf1b6"
-namespace cbit_传感器类 {
+namespace NSbit_传感器类 {
 
     export enum enVoice {
-        //% blockId="Voice" block="声音"
+        //% blockId="Voice" block="有声音"
         Voice = 0,
         //% blockId="NoVoice" block="无声音"
         NoVoice = 1
@@ -259,7 +259,7 @@ namespace cbit_传感器类 {
  ****************************************************************************************************************************************/
 
 //% color="#C814B8" weight=23 icon="\uf11c"
-namespace cbit_输入类 {
+namespace NSbit_输入类 {
 
     export enum enRocker {
         //% blockId="Nostate" block="无"
@@ -370,7 +370,7 @@ namespace cbit_输入类 {
  ****************************************************************************************************************************************/
 
 //% color="#C814B8" weight=22 icon="\uf001"
-namespace cbit_音乐类 {
+namespace NSbit_音乐类 {
     export enum enBuzzer {
 
         //% blockId="NoBeep" block="响"
@@ -399,7 +399,7 @@ namespace cbit_音乐类 {
  ****************************************************************************************************************************************/
 
 //% color="#C814B8" weight=21 icon="\uf185"
-namespace cbit_电机类 {
+namespace NSbit_电机类 {
 
     //% blockId=cbit_Fan block="风扇|引脚 %pin|速度 %value"
     //% weight=100
@@ -428,7 +428,7 @@ namespace cbit_电机类 {
 }
 
 //% color="#C814B8" weight=20 icon="\uf1b9"
-namespace cbit_小车类 {
+namespace NSbit_小车类 {
 
     const PCA9685_ADD = 0x41
     const MODE1 = 0x00
