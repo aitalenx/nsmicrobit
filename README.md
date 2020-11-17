@@ -1,5 +1,5 @@
-# cBit
-艾瑞奇基于micro:bit 控制器的扩展库（天津艾瑞奇教育科技有限公司）
+# NSBit
+纳深基于micro:bit 控制器的扩展库（上海纳深机器人有限公司）
 
 ## License
 
