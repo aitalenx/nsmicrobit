@@ -1,6 +1,6 @@
 {
-    "name": "cBit",
-    "version": "1.1.0",
+    "name": "NSBit",
+    "version": "0.0.0",
     "description": "Extension for ZYRobot micro:bit",
     "license": "MIT",
     "dependencies": {
@@ -13,7 +13,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/cbit-strings.json"
+        "_locales/zh/nsbit-strings.json"
 
     ],
     "testFiles": [
