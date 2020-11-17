@@ -624,8 +624,8 @@ namespace NSbit_小车类 {
         setPwm(12, 0, speed);
         setPwm(13, 0, 0);
 
-        setPwm(15, 0, speed);
-        setPwm(14, 0, 0);
+        setPwm(14, 0, speed);
+        setPwm(15, 0, 0);
         //pins.digitalWritePin(DigitalPin.P16, 1);
        // pins.analogWritePin(AnalogPin.P1, 1023-speed); //速度控制
 
@@ -832,51 +832,51 @@ namespace NSbit_小车类 {
 
         switch (value) {
             case enColor.OFF: {
-                setPwm(0, 0, 0);
-                setPwm(1, 0, 0);
-                setPwm(2, 0, 0);
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 0);
                 break;
             }
             case enColor.Red: {
-                setPwm(0, 0, 4095);
-                setPwm(1, 0, 0);
-                setPwm(2, 0, 0);
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 0);
                 break;
             }
             case enColor.Green: {
-                setPwm(0, 0, 0);
-                setPwm(1, 0, 4095);
-                setPwm(2, 0, 0);
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 0);
                 break;
             }
             case enColor.Blue: {
-                setPwm(0, 0, 0);
-                setPwm(1, 0, 0);
-                setPwm(2, 0, 4095);
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.White: {
-                setPwm(0, 0, 4095);
-                setPwm(1, 0, 4095);
-                setPwm(2, 0, 4095);
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Cyan: {
-                setPwm(0, 0, 0);
-                setPwm(1, 0, 4095);
-                setPwm(2, 0, 4095);
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Pinkish: {
-                setPwm(0, 0, 4095);
-                setPwm(1, 0, 0);
-                setPwm(2, 0, 4095);
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Yellow: {
-                setPwm(0, 0, 4095);
-                setPwm(1, 0, 4095);
-                setPwm(2, 0, 0);
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 0);
                 break;
             }
         }
@@ -900,9 +900,9 @@ namespace NSbit_小车类 {
         if (B > 4096)
             B = 4095;
 
-        setPwm(0, 0, R);
-        setPwm(1, 0, G);
-        setPwm(2, 0, B);
+        setPwm(11, 0, R);
+        setPwm(10, 0, G);
+        setPwm(9, 0, B);
 
     }
 
