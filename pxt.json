@@ -1,6 +1,6 @@
 {
-    "name": "cBit",
-    "version": "1.1.0",
+    "name": "NSBit",
+    "version": "0.0.1",
     "description": "Extension for ZYRobot micro:bit",
     "license": "MIT",
     "dependencies": {
