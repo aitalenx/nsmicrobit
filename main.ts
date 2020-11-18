@@ -832,51 +832,51 @@ namespace NSbit_小车类 {
 
         switch (value) {
             case enColor.OFF: {
-                setPwm(11, 0, 0);
-                setPwm(10, 0, 0);
-                setPwm(9, 0, 0);
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Red: {
-                setPwm(11, 0, 4095);
-                setPwm(10, 0, 0);
-                setPwm(9, 0, 0);
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Green: {
-                setPwm(11, 0, 0);
-                setPwm(10, 0, 4095);
-                setPwm(9, 0, 0);
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Blue: {
-                setPwm(11, 0, 0);
-                setPwm(10, 0, 0);
-                setPwm(9, 0, 4095);
-                break;
-            }
-            case enColor.White: {
-                setPwm(11, 0, 4095);
-                setPwm(10, 0, 4095);
-                setPwm(9, 0, 4095);
-                break;
-            }
-            case enColor.Cyan: {
-                setPwm(11, 0, 0);
-                setPwm(10, 0, 4095);
-                setPwm(9, 0, 4095);
-                break;
-            }
-            case enColor.Pinkish: {
-                setPwm(11, 0, 4095);
-                setPwm(10, 0, 0);
-                setPwm(9, 0, 4095);
-                break;
-            }
-            case enColor.Yellow: {
                 setPwm(11, 0, 4095);
                 setPwm(10, 0, 4095);
                 setPwm(9, 0, 0);
+                break;
+            }
+            case enColor.White: {
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 0);
+                break;
+            }
+            case enColor.Cyan: {
+                setPwm(11, 0, 4095);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 0);
+                break;
+            }
+            case enColor.Pinkish: {
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 4095);
+                setPwm(9, 0, 0);
+                break;
+            }
+            case enColor.Yellow: {
+                setPwm(11, 0, 0);
+                setPwm(10, 0, 0);
+                setPwm(9, 0, 4095);
                 break;
             }
         }
