@@ -904,6 +904,18 @@ namespace NSbit_小车类 {
         setPwm(10, 0, G);
         setPwm(9, 0, B);
 
+
+        setPwm(6, 0, R);
+        setPwm(7, 0, G);
+        setPwm(8, 0, B);
+		
+		setPwm(3, 0, R);
+        setPwm(4, 0, G);
+        setPwm(5, 0, B);
+		
+		setPwm(0, 0, R);
+        setPwm(1, 0, G);
+        setPwm(2, 0, B);
     }
 
     //% blockId=cbit_RGB_Car_Program block="七彩流水灯"
