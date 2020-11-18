@@ -832,48 +832,144 @@ namespace NSbit_小车类 {
 
         switch (value) {
             case enColor.OFF: {
+				setPwm(1, 0, 4095);
+                setPwm(0, 0, 4095);
+                setPwm(2, 0, 4095);
+				
+				setPwm(4, 0, 4095);
+                setPwm(3, 0, 4095);
+                setPwm(5, 0, 4095);
+				
+				setPwm(7, 0, 4095);
+                setPwm(6, 0, 4095);
+                setPwm(8, 0, 4095);
+				
                 setPwm(11, 0, 4095);
                 setPwm(10, 0, 4095);
                 setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Red: {
+				setPwm(1, 0, 0);
+                setPwm(0, 0, 4095);
+                setPwm(2, 0, 4095);
+				
+				setPwm(4, 0, 0);
+                setPwm(3, 0, 4095);
+                setPwm(5, 0, 4095);
+				
+				setPwm(7, 0, 0);
+                setPwm(6, 0, 4095);
+                setPwm(8, 0, 4095);
+				
                 setPwm(11, 0, 0);
                 setPwm(10, 0, 4095);
                 setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Green: {
+				setPwm(1, 0, 4095);
+                setPwm(0, 0, 0);
+                setPwm(2, 0, 4095);
+				
+				setPwm(4, 0, 4095);
+                setPwm(3, 0, 0);
+                setPwm(5, 0, 4095);
+				
+				setPwm(7, 0, 4095);
+                setPwm(6, 0, 0);
+                setPwm(8, 0, 4095);
+				
                 setPwm(11, 0, 4095);
                 setPwm(10, 0, 0);
                 setPwm(9, 0, 4095);
                 break;
             }
             case enColor.Blue: {
+				setPwm(1, 0, 4095);
+                setPwm(0, 0, 4095);
+                setPwm(2, 0, 0);
+				
+				setPwm(4, 0, 4095);
+                setPwm(3, 0, 4095);
+                setPwm(5, 0, 0);
+				
+				setPwm(7, 0, 4095);
+                setPwm(6, 0, 4095);
+                setPwm(8, 0, 0);
+				
                 setPwm(11, 0, 4095);
                 setPwm(10, 0, 4095);
                 setPwm(9, 0, 0);
                 break;
             }
             case enColor.White: {
+				setPwm(1, 0, 0);
+                setPwm(0, 0, 0);
+                setPwm(2, 0, 0);
+				
+				setPwm(4, 0, 0);
+                setPwm(3, 0, 0);
+                setPwm(5, 0, 0);
+				
+				setPwm(7, 0, 0);
+                setPwm(6, 0, 0);
+                setPwm(8, 0, 0);
+				
                 setPwm(11, 0, 0);
                 setPwm(10, 0, 0);
                 setPwm(9, 0, 0);
                 break;
             }
             case enColor.Cyan: {
+				setPwm(1, 0, 4095);
+                setPwm(0, 0, 0);
+                setPwm(2, 0, 0);
+				
+				setPwm(4, 0, 4095);
+                setPwm(3, 0, 0);
+                setPwm(5, 0, 0);
+				
+				setPwm(7, 0, 4095);
+                setPwm(6, 0, 0);
+                setPwm(8, 0, 0);
+				
                 setPwm(11, 0, 4095);
                 setPwm(10, 0, 0);
                 setPwm(9, 0, 0);
                 break;
             }
             case enColor.Pinkish: {
+				setPwm(1, 0, 0);
+                setPwm(0, 0, 4095);
+                setPwm(2, 0, 0);
+				
+				setPwm(4, 0, 0);
+                setPwm(3, 0, 4095);
+                setPwm(5, 0, 0);
+				
+				setPwm(7, 0, 0);
+                setPwm(6, 0, 4095);
+                setPwm(8, 0, 0);
+				
                 setPwm(11, 0, 0);
                 setPwm(10, 0, 4095);
                 setPwm(9, 0, 0);
                 break;
             }
             case enColor.Yellow: {
+				setPwm(1, 0, 0);
+                setPwm(0, 0, 0);
+                setPwm(2, 0, 4095);
+				
+				setPwm(4, 0, 0);
+                setPwm(3, 0, 0);
+                setPwm(5, 0, 4095);
+				
+				setPwm(7, 0, 0);
+                setPwm(6, 0, 0);
+                setPwm(8, 0, 4095);
+				
                 setPwm(11, 0, 0);
                 setPwm(10, 0, 0);
                 setPwm(9, 0, 4095);
