@@ -889,9 +889,9 @@ namespace NSbit_小车类 {
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=4
     export function RGB_Car_Big(value1: number, value2: number, value3: number): void {
 
-        let R = value1 * 16;
-        let G = value2 * 16;
-        let B = value3 * 16;
+        let R = (255-value1) * 16;
+        let G = (255-value2) * 16;
+        let B = (255-value3) * 16;
 
         if (R > 4096)
             R = 4095;
@@ -905,16 +905,16 @@ namespace NSbit_小车类 {
         setPwm(9, 0, B);
 
 
-        setPwm(6, 0, R);
-        setPwm(7, 0, G);
+        setPwm(7, 0, R);
+        setPwm(6, 0, G);
         setPwm(8, 0, B);
 		
-		setPwm(3, 0, R);
-        setPwm(4, 0, G);
+		setPwm(4, 0, R);
+        setPwm(3, 0, G);
         setPwm(5, 0, B);
 		
-		setPwm(0, 0, R);
-        setPwm(1, 0, G);
+		setPwm(1, 0, R);
+        setPwm(0, 0, G);
         setPwm(2, 0, B);
     }
 
